@@ -1,0 +1,66 @@
+site_name: Learn With Ted!
+site_description: Companion site to the various online courses taught by Ted M. Young.
+site_author: Ted M. Young
+
+# Copyright
+copyright: 'Copyright &copy; 2018, Ted M. Young. All Rights Reserved.'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Open Sans'
+    code: 'Inconsolata'
+  logo: 'images/noun_help_545617_white_optimized.svg'
+  favicon: 'favicon.ico'
+  feature:
+    tabs: false
+
+extra_css:
+  - 'stylesheets/extra.css'
+
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: true
+      linenums: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  social:
+    - type: 'twitter'
+      link: 'https://twitter.com/jitterted'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/in/tedmyoung'
+nav:
+  - Home: index.md
+  - Projects:
+    - First: day001.md
+    - Second: day002.md
+  - About: about.md
+
