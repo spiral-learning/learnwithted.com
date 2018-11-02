@@ -1,5 +1,5 @@
 site_name: Learn With Ted!
-site_description: Companion site to the various online courses taught by Ted M. Young.
+site_description: Companion site to online Java and Spring courses taught by Ted M. Young.
 site_author: Ted M. Young
 
 # Copyright
@@ -8,6 +8,7 @@ copyright: 'Copyright &copy; 2018, Ted M. Young. All Rights Reserved.'
 # Configuration
 theme:
   name: 'material'
+  custom_dir: 'custom_theme'
   language: 'en'
   palette:
     primary: 'indigo'
@@ -15,8 +16,8 @@ theme:
   font:
     text: 'Open Sans'
     code: 'Inconsolata'
-  logo: 'images/noun_help_545617_white_optimized.svg'
-  favicon: 'favicon.ico'
+  logo: 'images/noun_School_1649892.svg'
+#  favicon: 'favicon.ico'
   feature:
     tabs: false
 
@@ -59,8 +60,8 @@ extra:
       link: 'https://linkedin.com/in/tedmyoung'
 nav:
   - Home: index.md
-  - Projects:
-    - First: day001.md
-    - Second: day002.md
+  - Spiral Coffee Kiosk:
+    - Introduction: 10-intro.md
+    - "Section 1: Navigating": 20-navigating.md
   - About: about.md
 
